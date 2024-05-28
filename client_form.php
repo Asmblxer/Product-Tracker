@@ -19,15 +19,15 @@
     </div> 
     <form action="add_client.php" method="POST">
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_name" class="form-label">إسم الزبون</label>
+        <label for="client_name" class="form-label">إسم العميل</label>
         <input type="text" class="form-control" id="client_name" name="client_name">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_phone" class="form-label">تلفون الزبون</label>
+        <label for="client_phone" class="form-label">تلفون العميل</label>
         <input type="tel" class="form-control" id="client_phone" name="client_phone">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_address" class="form-label">عنوان الزبون</label>
+        <label for="client_address" class="form-label">عنوان العميل</label>
         <input type="text" class="form-control" id="client_address" name="client_address">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
