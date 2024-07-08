@@ -35,15 +35,15 @@
         <input type="text" class="form-control" id="client_id" name="client_id" value="<?php echo $row["ID"]?>" readonly>
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_name" class="form-label">إسم الزبون</label>
+        <label for="client_name" class="form-label">إسم العميل</label>
         <input type="text" class="form-control" id="client_name" name="client_name" value="<?php echo $row["name"]?>">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_phone" class="form-label">تلفون الزبون</label>
+        <label for="client_phone" class="form-label">تلفون العميل</label>
         <input type="tel" class="form-control" id="client_phone" name="client_phone" value="<?php echo $row["phone"]?>">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <label for="client_address" class="form-label">عنوان الزبون</label>
+        <label for="client_address" class="form-label">عنوان العميل</label>
         <input type="text" class="form-control" id="client_address" name="client_address" value="<?php echo $row["address"]?>">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
@@ -55,7 +55,7 @@
         <input type="note" class="form-control" id="note" name="note" value="<?php echo $row["note"]?>">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <button type="submit" class="btn btn-success">أضف زبون</button>
+        <button type="submit" class="btn btn-success">أضف عميل</button>
         <a href="clients.php" class="btn btn-danger" style="margin-left: 100px;">إلغاء</a>
         <a href="clients.php" class="btn btn-primary" style="margin-left: 100px;">رجوع</a>
       </div>
