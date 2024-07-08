@@ -39,7 +39,7 @@
         <input type="note" class="form-control" id="note" name="note">
       </div>
       <div class="mb-3" style="margin-left: 10px; margin-right: 10px;">
-        <button type="submit" class="btn btn-success">أضف زبون</button>
+        <button type="submit" class="btn btn-success">أضف عميل</button>
         <a href="clients.php" class="btn btn-danger" style="margin-left: 100px;">إلغاء</a>
       </div>
     </form>
